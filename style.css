@@ -77,6 +77,7 @@ border-bottom: 2px solid white;
 	text-decoration: none;
 	line-height: 45px;
 	vertical-align: middle;
+	text-align: center;
 }
 
 .mobile-apps{
@@ -115,6 +116,11 @@ h2{
 	margin-bottom: 55px;
 	margin-left: 158px;
 }
+/* лучше спросить как это делается а то я накуролесил все возможные варианты
+.services-item:first-child{
+	margin-left: 0px;
+}
+*/
 .services-item .item {
 	position: relative;
 /*	padding-left: 30px;*/
@@ -203,6 +209,9 @@ margin-top: 60px;
 	width:100px;
 	margin-right: 100px;
 }
+.standard-item:last-child{
+	margin-right: 0px;
+}
 .standard-item .item {
 	position: relative;
 /*	padding-left: 30px;*/
@@ -220,5 +229,117 @@ margin-top: 60px;
 	height: 30px;
 	background-image:  url("svg/web-programming.svg") ;
 	vertical-align: bottom;
+}
 
+.specialization{
+
+height: 972px;
+}
+.specialization-gradient{
+	height: 490px;
+	background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+	text-align: center;
+}
+.specialization-top{
+	display: inline-block;
+	color: white;
+	width: 1110px;
+	vertical-align: middle;
+
+}
+.specialization-top h2{
+	display: block;
+	float: left;
+	width: 540px;
+	text-align: left;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	margin-top: 100px;
+}
+.specialization-top a
+{
+	float: right;
+	margin-top: 120px;
+}
+.specialization-absolute{
+		text-align:  center;
+}
+.specialization-catalog{
+	text-align:  center;
+	display: inline-block;
+	width: 1110px;
+	border-bottom:  1px solid #E0E0E0;
+	padding-bottom: 85px;
+}
+.specialization-item{
+	position: relative;
+	/*display: inline-block;*/
+	float: left;
+	width:350px;
+	margin-right: 30px;
+	text-align: left;
+}
+.specialization-item:last-child{
+	margin-right: 0px;
+	float: right;
+}
+.specialization-item h3{
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.specialization-item span{
+	display: block;
+	margin-bottom: 30px;
+}
+.specialization-item img{
+	position: absolute;
+	top: -232px;
+}
+
+.projects{
+	height: 776px;
+	background-color:  #F6F6F8;
+			text-align:  center;
+}
+.projects-main{
+	display: inline-block;
+		width: 1110px;
+		text-align:  center;
+}
+.projects-main h2{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.projects-main span{
+	display: inline-block;
+	width: 730px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #999999;
+	margin-bottom: 70px;
+}
+.projects-catalog{
+margin-bottom: 305px;
+}
+.projects-catalog img{
+margin-right: 30px;
+float: left;
+}
+.projects-catalog img:last-child{
+margin-right: 0px;
+}
+.projects-button{
+	width: 1110px;
+}
+
+.videos{
+	height: 735px;
+	background-image: url("img/VideoBackground.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
 }
