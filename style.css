@@ -30,13 +30,17 @@ body {
 	list-style: none;
 }
 .main-nav li {
-	padding-left: 20px;
-	padding-right: 20px;
-  display:inline;
+  display: inline-block;
 	line-height: 100px;
 	vertical-align: middle;
 }
+.main-nav a:hover{
+border-bottom: 2px solid white;
+}
 .main-nav a{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
 	font-weight: 500;
 	color: white;
 	text-decoration: none;
